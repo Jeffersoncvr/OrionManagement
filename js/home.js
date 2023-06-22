@@ -102,4 +102,3 @@ function produtos(item){
     conteudo.innerHTML = mudelo
     table_element.appendChild(conteudo)
 }
-
