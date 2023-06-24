@@ -33,20 +33,7 @@ body{
     border: none;
     border-radius: 7px;
 }
-.numero-form{
-    margin-top: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.19rem;
-}
-.botoes-form{
-    width: 8rem;
-    height: 2rem;
-    background-color: #d9d9d9;
-    border: none;
-    border-radius: 7px;
-}
+
 .coluna{
     display: flex;
     flex-direction: column;
@@ -63,10 +50,10 @@ body{
     color: #D9D9D9;
     font-size: 15px;
 }
-.salvar-fechar{
+.fechar{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 3.5rem;
     gap: 3rem;
 }
 .botao-SF{
