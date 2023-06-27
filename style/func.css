@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #616161;
+    height: 100%;
+    width: 15vw;
+}
+.logo{
+    margin: 2rem 0rem 7rem 0rem;
+    width: 10rem;
+    height: 10rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+}
+.sair{
+    display: flex;
+    margin-top: 20vh;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.link:hover{
+    background-color: #fff;
+    color: #000;
+}
+a#Funcionarios-Btt,a#Funcionarios-Btt{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+}
+#logo-lateral img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    border: 0.2rem solid black;
+}
+#barra-lateral{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    width: 15vw;
+    height: 100vh; 
+}
+
+#pesquisa{
+    width: 60vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+#Funcionarios{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+#barra-de-pesquisa{
+    margin: 2rem;
+}
+#Botao-add-fun{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: #616161;
+    border: 0.1rem solid black;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+td{
+    padding: 0px;
+    text-align: center;
+    border-width: 1px;
+    border:none;
+    background-color: aliceblue;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+table{
+    border-radius: 1rem;
+    background-color: #616161;
+    width: 75rem;
+    height: 40rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 0px;
+}
+article{
+    align-items: center;
+}
+tr{
+    vertical-align: middle;
+}
+thead{
+    color: #fff;
+    text-align: center;
+    height: 3rem;
+}
+#Botao-Visu{
+    cursor: pointer;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    width: 9rem;
+}
+
