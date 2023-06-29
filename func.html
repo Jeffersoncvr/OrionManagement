@@ -4,61 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/func.css">
+    <link rel="stylesheet" href="./style/func.css">
+    <link rel="stylesheet" href="./style/home.css">
     <title>Funcionarios</title>
 </head>
 <body>
     <nav class="nav">
         <img src="./imgs/Logo.svg" class="logo">
         <ul class="main">
-            <a href="home.html" id="home" class="link">Home</a>
-            <a href=""class="link" id="Funcionarios-Btt">Funcionarios</a>
+            <a href="home.html" class="link">Home</a>
+            <a href="func.html" id="funcionarios" class="link">Funcionarios</a>
             <a href=""class="link">Estoque</a>
         </ul>
         <ul class="sair">
             <a href="" class="link">Sair</a>
         </ul>
     </nav>
-    <article id="Funcionarios">
-        <nav id="barra-de-pesquisa">
+    <main>
+        <nav class="head">
             <input id="pesquisa" type="text" placeholder="Pesquisar nome ou CF">
-            <button id="Botao-add-fun">Adicionar Funcionario</button>
+            <button class="Botao-add-fun">Adicionar Funcionario</button>
         </nav>
-        <table>
-            <thead>
+        <article class="articleTable">
+            <table class="tableHome">
                 <tr>
                     <th>CF</th>
                     <th>Nome</th>
                     <th>Função</th>
                     <th>Periodo</th>
                 </tr>
-            </thead>
-            <tbody>
-                </tr>
+                <tr>
                     <td>000001</td>
                     <td>Jefferson Carlos</td>
                     <td>Gerente de produção</td>
                     <td>Manhã</td>
-                    <td><button id="Botao-Visu">Visualizar</button></td>
-                <tr>
+                    <td><button class="Botao-Visu">Visualizar</button></td>
                 </tr>
+                <tr>
                     <td>000001</td>
                     <td>Jefferson Carlos</td>
                     <td>Gerente de produção</td>
                     <td>Manhã</td>
-                    <td><button id="Botao-Visu">Visualizar</button></td>
-                <tr>
+                    <td><button class="Botao-Visu">Visualizar</button></td>
+                
                 </tr>
+                <tr>
                     <td>000001</td>
                     <td>Jefferson Carlos</td>
                     <td>Gerente de produção</td>
                     <td>Manhã</td>
-                    <td><button id="Botao-Visu">Visualizar</button></td>
-                <tr>
-                    
-                    
-            </tbody>
-        </table>
-    </article>
+                    <td><button class="Botao-Visu">Visualizar</button></td>
+                </tr>
+            </table>
+        </article>
+    </main>
 </body>
 </html>

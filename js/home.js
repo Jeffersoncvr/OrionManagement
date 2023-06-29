@@ -78,6 +78,56 @@ var lista = [
         totalDeSaida:"4,200KG",
         totalVendas:"R$ 525,00",
         totalDeLucro:"R$ 210,00"
+    },
+    {
+        id:"09",
+        nome:"Bolo de chocolate",
+        preco:"R$ 80,00",
+        producao:"5,800KG",
+        custo:"R$ 30,00",
+        totalDeSaida:"4,200KG",
+        totalVendas:"R$ 525,00",
+        totalDeLucro:"R$ 210,00"
+    },
+    {
+        id:"10",
+        nome:"Bolo de chocolate",
+        preco:"R$ 80,00",
+        producao:"5,800KG",
+        custo:"R$ 30,00",
+        totalDeSaida:"4,200KG",
+        totalVendas:"R$ 525,00",
+        totalDeLucro:"R$ 210,00"
+    },
+    {
+        id:"11",
+        nome:"Bolo de chocolate",
+        preco:"R$ 80,00",
+        producao:"5,800KG",
+        custo:"R$ 30,00",
+        totalDeSaida:"4,200KG",
+        totalVendas:"R$ 525,00",
+        totalDeLucro:"R$ 210,00"
+    },
+    {
+        id:"12",
+        nome:"Bolo de chocolate",
+        preco:"R$ 80,00",
+        producao:"5,800KG",
+        custo:"R$ 30,00",
+        totalDeSaida:"4,200KG",
+        totalVendas:"R$ 525,00",
+        totalDeLucro:"R$ 210,00"
+    },
+    {
+        id:"13",
+        nome:"Bolo de chocolate",
+        preco:"R$ 80,00",
+        producao:"5,800KG",
+        custo:"R$ 30,00",
+        totalDeSaida:"4,200KG",
+        totalVendas:"R$ 525,00",
+        totalDeLucro:"R$ 210,00"
     }
 ]
 
