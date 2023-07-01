@@ -3,32 +3,47 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #a8a8a8;
     font-family: 'Jost', sans-serif;
 }
+/* back é a posiçao do pop-up em relaçao ao background. usar o top e left para ajustar*/
+#back{
+    position: fixed;
+    top: 15vh;
+    left: 25vw;
+}
+ /*mudei todas as unidades de medida, nenhuma estava responsiva*/
 .conteudo{
+    background-color: #a8a8a8;
+    width: 40vw;
+    height: 65vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .nome-cod{
-    margin-top: 2rem;
+    margin-top: 5px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15rem;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
 }
+
 #nome-conteudo{
-    width: 15rem;
-    height: 2rem;
+    width: 150px;
+    height: 20px;
     background-color: #d9d9d9;
     border: none;
     border-radius: 7px;
 }
+
 #cod-conteudo{
-    width: 15rem;
-    height: 2rem;
+    width: 150px;
+    height: 20px;
     background-color: #d9d9d9;
     border: none;
     border-radius: 7px;
@@ -37,30 +52,43 @@ body{
 .coluna{
     display: flex;
     flex-direction: column;
+    font-size: 15px;
 }
+/*a tabela ocupa 100% de largura e 70% de altura do .conteudo*/
 .quadro{
-    width: 45.5rem;
-    height: 25rem;
-    margin-top: 2rem;
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
     border-radius: 10px;
     background-color: #616161;
-    border-spacing: 1rem;  
+    padding: 15px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
 }
+
 .nome-table{
     color: #D9D9D9;
     font-size: 15px;
 }
+
 .fechar{
     display: flex;
     justify-content: center;
-    margin-top: 3.5rem;
+    margin-top: 20px;
     gap: 3rem;
 }
+
 .botao-SF{
-    width: 5rem;
-    height: 2.5rem; 
+    width: 60px;
+    height: 30px; 
     text-align: center;  
     cursor: pointer;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #616161
+}
+
+/*nao consegui usar o border-radius nas linhas da tabela. se usar na tag <tr> fica estranho*/
+.linha{
+    border-spacing: 2px;    
+    background-color: #D9D9D9;
 }
