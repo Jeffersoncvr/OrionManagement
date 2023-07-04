@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Jost', sans-serif;
+}
+/* back é a posiçao do pop-up em relaçao ao background. usar o top e left para ajustar.
+Coloquei o z-index em 999 pra ter certeza q vai ficar em cima de todo o conteudo da tela*/
+#back{
+    position: fixed;
+    top: 15vh;
+    left: 25vw;
+    z-index: 999;
+}
+ /*mudei todas as unidades de medida, nenhuma estava responsiva*/
+.conteudo{
+    background-color: #a8a8a8;
+    min-width: 40vw;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nome-cod{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+#nome-conteudo{
+    width: 10vw;
+    height: 20px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 7px;
+}
+
+#cod-conteudo{
+    width: 10vw;
+    height: 20px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 7px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+/*a tabela ocupa 100% de largura e 70% de altura do .conteudo*/
+.quadro{
+    width: 40vw;
+    height: 50vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #616161;
+    padding: 15px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.nome-table{
+    color: #D9D9D9;
+    font-size: 15px;
+}
+
+.fechar{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.botao-SF{
+    width: 60px;
+    height: 30px; 
+    text-align: center;  
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #616161
+}
+
+/*nao consegui usar o border-radius nas linhas da tabela. se usar na tag <tr> fica estranho*/
+.linha{
+    border-spacing: 2px;    
+    background-color: #D9D9D9;
+}
