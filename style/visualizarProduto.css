@@ -1,29 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
-
-body{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Jost', sans-serif;
-}
 /* back é a posiçao do pop-up em relaçao ao background. usar o top e left para ajustar.
 Coloquei o z-index em 999 pra ter certeza q vai ficar em cima de todo o conteudo da tela*/
-#back{
-    position: fixed;
-    top: 15vh;
-    left: 25vw;
-    z-index: 999;
-}
  /*mudei todas as unidades de medida, nenhuma estava responsiva*/
 .conteudo{
     background-color: #a8a8a8;
-    min-width: 40vw;
-    min-height: 65vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 1;
+    top: 20vh;
+    left: 27vw;
+    box-shadow: 0px 0px 18px 100vw rgba(0,0,0,0.75);
 }
 
 .nome-cod{

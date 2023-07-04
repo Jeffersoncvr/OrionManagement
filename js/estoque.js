@@ -91,10 +91,20 @@ function produtos(item){
     <td>${item.nome}</td>
     <td>${item.producao}</td>
     <td>${item.preco}</td>
-    <td><button id="${item.id}" class="Botao-Visu">Visualizar</button></td>
+    <td><button id="visualizar" class="Botao-Visu">Visualizar</button></td>
     `
     conteudo.innerHTML = Item
     table_element.appendChild(conteudo)
 }
 
-  
+const openBtn = document.querySelector("#visualizar");
+const closeBtn = document.querySelector("#close-visualizar");
+const modal = document.querySelector("dialog");
+
+openBtn.onclick = function (){
+    modal.showModal()
+}
+
+closeBtn.onclick = function (){
+    modal.close()
+}
