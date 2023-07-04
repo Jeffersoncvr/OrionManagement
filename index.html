@@ -9,151 +9,151 @@
 
 
 <body>
-
     <button id="abrir-popup">Abrir PopUp</button> <!--Apagar essa linha de cod qnd juntar tudo e mudar no js-->
-
-    <dialog class="popup">
-        <main class="conteudo"> 
-            <div class="div-conteudo">
-                <form class="valores"> 
-                    <div class="nome-cod">
-                        <div class="coluna">
-                            <label for="nome-conteudo">Nome</label>
-                            <input type="text" id="nome-conteudo" class="botoes-nome-cod">
+    <div class="div-tudo">
+        <dialog class="popup">
+            <main class="conteudo"> 
+                <div class="div-conteudo">
+                    <form class="valores"> 
+                        <div class="nome-cod">
+                            <div class="coluna">
+                                <label for="nome-conteudo">Nome</label>
+                                <input type="text" id="nome-conteudo" class="botoes-nome-cod">
+                            </div>
+                            <div class="coluna">
+                                <label for="cod-conteudo">COD</label>
+                                <input type="text" id="cod-conteudo" class="botoes-nome-cod">
+                            </div> 
                         </div>
-                        <div class="coluna">
-                            <label for="cod-conteudo">COD</label>
-                            <input type="text" id="cod-conteudo" class="botoes-nome-cod">
-                        </div> 
+                        <div class="numero-form">
+                            <div class="coluna">
+                                <label for="data-fab">Data Fab.</label>
+                                <input type="date" id="data-fab" class="botoes-form">
+                            </div>
+                            <div class="coluna">
+                                <label for="validade">Validade</label>
+                                <input type="date" id="validade" class="botoes-form">
+                            </div>
+                            <div class="coluna">
+                                <label for="quantidade-form">Quantidade</label>
+                                <input type="text" id="quantidade-form" class="botoes-form">
+                            </div>
+                            <div class="coluna">
+                                <label for="valor-form">Valor</label>
+                                <input type="text" id="valor-form" class="botoes-form">
+                            </div>
+                            <div class="coluna">
+                                <label for="custo-form">Custo</label>
+                                <input type="text" id="custo-form" class="botoes-form">
+                            </div> 
+                        </div>   
+                    </form>
+                    <table class="quadro">
+                        <thead>
+                            <tr class="class-table">
+                                <th class="nome-table">
+                                    Nome
+                                    
+                                </th>
+                                <th class="nome-table">
+                                    Matéria prima necessária
+                                    
+                                </th>
+                                <th class="nome-table">
+                                    Quantidade disponivel
+                                </th>
+                                <th class="nome-table">
+                                    Valor matéria prima
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody-table">
+
+                            <tr>
+                                <td >
+                                    <p>Cenoura</p>
+                                </td>
+                                <td>
+                                    <p>0.300 Kg</p>
+                                </td>
+                                <td>
+                                    <p>2.400 Kg</p>
+                                </td>
+                                <td class="borda-direita">
+                                    <p>2.50 R$/Kg</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="borda-esquerda">
+                                    <p>Óleo</p>
+                                </td>
+                                <td>
+                                    <p>0.125 L</p>
+                                </td>
+                                <td>
+                                    <p>0.400 L</p>
+                                </td>
+                                <td class="borda-direita">
+                                    <p>10.00 R$/L</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="borda-esquerda">
+                                    <p>Farinha de Trigo</p>
+                                </td>
+                                <td>
+                                    <p>0.210 Kg</p>
+                                </td>
+                                <td>
+                                    <p>5 Kg</p>
+                                </td>
+                                <td class="borda-direita">
+                                    <p>8.50 R$/Kg</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="borda-esquerda">
+                                    <p>Amido de milho</p>
+                                </td>
+                                <td>
+                                    <p>0.060 Kg</p>
+                                </td>
+                                <td>
+                                    <p>0.400 Kg</p>
+                                </td>
+                                <td class="borda-direita">
+                                    <p>3.50 R$/Kg</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="borda-esquerda">
+                                    <p>Fermento</p>
+                                </td>
+                                <td>
+                                    <p>0.008 Kg</p>
+                                </td>
+                                <td>
+                                    <p>0.200 Kg</p>
+                                </td>
+                                <td class="borda-direita">
+                                    <p>2.50 R$/Kg</p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="salvar-fechar">
+                        <button class="botao-SF" id="botao-salvar">Salvar</button>
+                        <button class="botao-SF" id="botao-fechar">Fechar</button>
                     </div>
-                    <div class="numero-form">
-                        <div class="coluna">
-                            <label for="data-fab">Data Fab.</label>
-                            <input type="date" id="data-fab" class="botoes-form">
-                        </div>
-                        <div class="coluna">
-                            <label for="validade">Validade</label>
-                            <input type="date" id="validade" class="botoes-form">
-                        </div>
-                        <div class="coluna">
-                            <label for="quantidade-form">Quantidade</label>
-                            <input type="text" id="quantidade-form" class="botoes-form">
-                        </div>
-                        <div class="coluna">
-                            <label for="valor-form">Valor</label>
-                            <input type="text" id="valor-form" class="botoes-form">
-                        </div>
-                        <div class="coluna">
-                            <label for="custo-form">Custo</label>
-                            <input type="text" id="custo-form" class="botoes-form">
-                        </div> 
-                    </div>   
-                </form>
-                <table class="quadro">
-                    <thead>
-                        <tr class="class-table">
-                            <th class="nome-table">
-                                Nome
-                                
-                            </th>
-                            <th class="nome-table">
-                                Matéria prima necessária
-                                
-                            </th>
-                            <th class="nome-table">
-                                Quantidade disponivel
-                            </th>
-                            <th class="nome-table">
-                                Valor matéria prima
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class="tbody-table">
-
-                        <tr>
-                            <td >
-                                <p>Cenoura</p>
-                            </td>
-                            <td>
-                                <p>0.300 Kg</p>
-                            </td>
-                            <td>
-                                <p>2.400 Kg</p>
-                            </td>
-                            <td class="borda-direita">
-                                <p>2.50 R$/Kg</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="borda-esquerda">
-                                <p>Óleo</p>
-                            </td>
-                            <td>
-                                <p>0.125 L</p>
-                            </td>
-                            <td>
-                                <p>0.400 L</p>
-                            </td>
-                            <td class="borda-direita">
-                                <p>10.00 R$/L</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="borda-esquerda">
-                                <p>Farinha de Trigo</p>
-                            </td>
-                            <td>
-                                <p>0.210 Kg</p>
-                            </td>
-                            <td>
-                                <p>5 Kg</p>
-                            </td>
-                            <td class="borda-direita">
-                                <p>8.50 R$/Kg</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="borda-esquerda">
-                                <p>Amido de milho</p>
-                            </td>
-                            <td>
-                                <p>0.060 Kg</p>
-                            </td>
-                            <td>
-                                <p>0.400 Kg</p>
-                            </td>
-                            <td class="borda-direita">
-                                <p>3.50 R$/Kg</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="borda-esquerda">
-                                <p>Fermento</p>
-                            </td>
-                            <td>
-                                <p>0.008 Kg</p>
-                            </td>
-                            <td>
-                                <p>0.200 Kg</p>
-                            </td>
-                            <td class="borda-direita">
-                                <p>2.50 R$/Kg</p>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-                <div class="salvar-fechar">
-                    <button class="botao-SF" id="botao-salvar">Salvar</button>
-                    <button class="botao-SF" id="botao-fechar">Fechar</button>
                 </div>
-            </div>
-        </main>
-    </dialog>
-    <script src="./main.js"></script>  
+            </main>
+        </dialog> 
+    </div>
+    <script src="./main.js"></script> 
 </body>
 </html>
