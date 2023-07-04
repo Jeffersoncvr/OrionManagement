@@ -1,0 +1,40 @@
+.articleTable{
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#TabelaEstoque{
+    display: flex;
+    margin: 6vh;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.nav-Estoque{
+    display: flex;
+    margin-left: 3rem;
+}
+a.Botao-Manu-Mate{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    border: black solid 0.1rem;
+    border-bottom: none;
+    border-radius: 1rem 1rem 0 0;
+    width: 8rem;
+    height: 2rem;
+    align-items: center;
+}
+#Botao-manu{
+    background-color: gray;
+}

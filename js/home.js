@@ -131,7 +131,7 @@ var lista = [
     }
 ]
 
-var table_element = document.getElementById('lista')
+var table_element = document.getElementById('listaHome')
 var tamanhoLista = lista.length
 for(let i=0;i<tamanhoLista;i++){
     produtos(lista[i])

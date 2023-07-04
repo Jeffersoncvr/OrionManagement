@@ -1,140 +1,88 @@
-var lista = [
+var listaEstoq = [
     {
         id:"01",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"02",
         nome:"Bolo de morango",
         preco:"R$ 100,00",
-        producao:"6,800KG",
-        custo:"R$ 350,00",
-        totalDeSaida:"4,400KG",
-        totalVendas:"R$ 565,00",
-        totalDeLucro:"R$ 410,00"
+        producao:"6,800KG"
     },
     {
         id:"03",
         nome:"Bolo de milho",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"04",
         nome:"Bolo de cenoura",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"05",
         nome:"panofe",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"06",
         nome:"pão",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"07",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"08",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"09",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"10",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"11",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"12",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     },
     {
         id:"13",
         nome:"Bolo de chocolate",
         preco:"R$ 80,00",
-        producao:"5,800KG",
-        custo:"R$ 30,00",
-        totalDeSaida:"4,200KG",
-        totalVendas:"R$ 525,00",
-        totalDeLucro:"R$ 210,00"
+        producao:"5,800KG"
     }
 ]
 
-var table_element = document.getElementById('Estoque-Manu')
-var tamanhoLista = lista.length
+var table_element = document.getElementById('listaEstoque')
+var tamanhoLista = listaEstoq.length
 for(let i=0;i<tamanhoLista;i++){
-    produtos(lista[i])
+    produtos(listaEstoq[i])
 }
 function produtos(item){
     var conteudo = document.createElement('tr')

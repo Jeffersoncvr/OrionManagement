@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/func.css">
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/estoque.css">
+    <link rel="stylesheet" href="./style/geral.css">
     <title>Funcionarios</title>
 </head>
 <body>
@@ -13,11 +15,11 @@
         <img src="./imgs/Logo.svg" class="logo">
         <ul class="main">
             <a href="home.html" class="link">Home</a>
-            <a href="func.html" id="link" class="link">Funcionarios</a>
-            <a href="estoque.html"id="estoque" class="link">Estoque</a>
+            <a href="func.html" class="link">Funcionarios</a>
+            <a href="estoque.html" id="estoque" class="link">Estoque</a>
         </ul>
         <ul class="sair">
-            <a href="" class="link">Sair</a>
+            <a href="login.html" class="link">Sair</a>
         </ul>
     </nav>
     <main>
@@ -26,12 +28,12 @@
             <button class="Botao-add-fun">Adicionar Produto</button>
         </nav>
 
-        <article id="TabelaEstoque">
-            <nav id="Botao-Estoque">
-                <a id="Botao-manu" class="Botao-Manu-Mate">Manufatura</a>
-                <a id="Botao-materia" class="Botao-Manu-Mate" onclick="myFunction()">Materia Prima</a>
-            </nav>
-            <table id="Estoque-Manu" class="tableHome">
+        <nav class="nav-Estoque">
+            <a id="Botao-manu" class="Botao-Manu-Mate">Manufatura</a>
+            <a id="Botao-materia" class="Botao-Manu-Mate" onclick="myFunction()">Materia Prima</a>
+        </nav>
+        <article class="articleTable">
+            <table id="listaEstoque" class="tableHome">
                 <tr>
                     <th>COD</th>
                     <th>Nome</th>
