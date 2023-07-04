@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="./imgs/Logo.svg" class="logo">
+        <ul class="main">
+            <a href="home.html" id="home" class="link">Home</a>
+            <a href="func.html"class="link">Funcionarios</a>
+            <a href="estoque.html"class="link">Estoque</a>
+        </ul>
+        <ul class="sair">
+            <a href="" class="link">Sair</a>
+        </ul>
+    </nav>
+    <main>
+        <header class="head">
+            <p>De: 10/02/2023</p>
+            <p>Até: 10/04/2023</p>
+            <p>Gerar relatorio</p>        
+        </header>
+        <div class="divImg">
+            <img src="./imgs/GraficoManufatura.svg">
+            <img src="./imgs/GraficoLucroCusto.svg">
+        </div>
+        <article class="articleTable">
+            <table id="lista" class="tableHome">
+                <tr>
+                    <th>id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Produção</th>
+                    <th>Custo</th>
+                    <th>Total de saida</th>
+                    <th>Total Vendas</th>
+                    <th>Total de Lucro</th>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <script src="./js/home.js"></script>
+</body>
+</html>
