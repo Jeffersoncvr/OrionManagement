@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/func.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <title>Funcionarios</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="./imgs/Logo.svg" class="logo">
+        <ul class="main">
+            <a href="home.html" class="link">Home</a>
+            <a href="func.html" id="link" class="link">Funcionarios</a>
+            <a href="estoque.html"id="estoque" class="link">Estoque</a>
+        </ul>
+        <ul class="sair">
+            <a href="" class="link">Sair</a>
+        </ul>
+    </nav>
+    <main>
+        <nav class="head">
+            <input id="pesquisa" type="text" placeholder="Pesquisar nome ou COD">
+            <button class="Botao-add-fun">Adicionar Produto</button>
+        </nav>
+
+        <article id="TabelaEstoque">
+            <nav id="Botao-Estoque">
+                <a id="Botao-manu" class="Botao-Manu-Mate">Manufatura</a>
+                <a id="Botao-materia" class="Botao-Manu-Mate" onclick="myFunction()">Materia Prima</a>
+            </nav>
+            <table id="Estoque-Manu" class="tableHome">
+                <tr>
+                    <th>COD</th>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <script src="./js/estoque.js"></script>
+</body>
+</html>
