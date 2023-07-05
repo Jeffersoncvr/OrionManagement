@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/estoque.css">
     <link rel="stylesheet" href="./style/geral.css">
     <link rel="stylesheet" href="./style/visualizarProduto.css">
+    <link rel="stylesheet" href="./style/cadastrarProduro.css">
     <title>Funcionarios</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
     <main>
         <nav class="head">
             <input id="pesquisa" type="text" placeholder="Pesquisar nome ou COD">
-            <button class="Botao-add-fun">Adicionar Produto</button>
+            <button id="cadastrar" class="Botao-add-fun">Adicionar Produto</button>
         </nav>
 
         <nav class="nav-Estoque">
@@ -108,6 +109,73 @@
         <div class="fechar"> <!--colorir botao -->
             <button id="close-visualizar" class="botao-SF">Fechar</button>
         </div>
+    </dialog>
+
+    <dialog class="popup-cadastrar_c">
+        <main class="conteudo_c"> 
+            <div class="div-conteudo_c">
+                <form class="valores_c"> 
+                    <div class="nome-cod_c">
+                        <div class="coluna_c">
+                            <label for="nome-conteudo">Nome</label>
+                            <input type="text" id="nome-conteudo_c" class="botoes-nome-cod_c">
+                        </div>
+                        <div class="coluna_c">
+                            <label for="cod-conteudo_c">COD</label>
+                            <input type="text" id="cod-conteudo_c" class="botoes-nome-cod_c">
+                        </div> 
+                    </div>
+                    <div class="numero-form_c">
+                        <div class="coluna_c">
+                            <label for="data-fab">Data Fab.</label>
+                            <input type="date" id="data-fab_c" class="botoes-form_c">
+                        </div>
+                        <div class="coluna_c">
+                            <label for="validade">Validade</label>
+                            <input type="date" id="validade_c" class="botoes-form_c">
+                        </div>
+                        <div class="coluna_c">
+                            <label for="quantidade-form">Quantidade</label>
+                            <input type="text" id="quantidade-form_c" class="botoes-form_c">
+                        </div>
+                        <div class="coluna_c">
+                            <label for="valor-form">Valor</label>
+                            <input type="text" id="valor-form_c" class="botoes-form_c">
+                        </div>
+                        <div class="coluna_c">
+                            <label for="custo-form">Custo</label>
+                            <input type="text" id="custo-form_c" class="botoes-form_c">
+                        </div> 
+                    </div>   
+                </form>
+                <div class="quadro_c">
+                    <div class="quadro-2_c">
+                        <div class="class-table_c">
+
+                            <div class="nome-table_c">
+                                Matéria prima necessária                                    
+                                <input type="text" class="botoes-nome-cod-inserir_c">
+                            </div>
+                            <div class="nome-table_c">
+                                Quantidade disponivel
+                                <input type="text" class="botoes-nome-cod-inserir_c">
+                            </div>
+                            <div class="nome-table_c">
+                                Valor matéria prima                                  
+                                <input type="text" class="botoes-nome-cod-inserir_c">
+                            </div>
+                        </div>
+                        <button class="botao-add_c">+</button>
+                    </div>
+                </div>
+
+
+                <div class="salvar-fechar_c">
+                    <button class="botao-SF_c" id="botao-salvar_c">Salvar</button>
+                    <button class="botao-SF_c" id="botao-fechar_c">Fechar</button>
+                </div>
+            </div>
+        </main>
     </dialog>
     <script src="./js/estoque.js"></script>
 </body>

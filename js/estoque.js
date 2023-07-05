@@ -108,3 +108,16 @@ openBtn.onclick = function (){
 closeBtn.onclick = function (){
     modal.close()
 }
+
+
+const open = document.querySelector("#cadastrar");
+const close = document.querySelector("#botao-fechar_c");
+const modal_cadastrar = document.querySelector(".popup-cadastrar_c");
+
+open.onclick = function (){
+    modal_cadastrar.showModal()
+}
+
+close.onclick = function (){
+    modal_cadastrar.close()
+}
